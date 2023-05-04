@@ -1,0 +1,13 @@
+$color-white: hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 0%);
+
+.card {
+    background-color: $color-white;
+    width: 85rem;
+    height: 50rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba($color-black, .1);
+    margin: 0 auto;
+    margin-top: 5%;
+    font-family: 'Ubuntu';
+}
