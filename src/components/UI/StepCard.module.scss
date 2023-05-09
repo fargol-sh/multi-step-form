@@ -1,0 +1,15 @@
+.step-card {
+    background-image: url('../../../assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47rem;
+    width: 25rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+
+    &__group {
+        display: flex;
+    }
+}
