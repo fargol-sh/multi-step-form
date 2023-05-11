@@ -1,15 +1,62 @@
+$color-white: hsl(0, 0%, 100%);
+$color-cool-gray: hsl(231, 11%, 63%);
+$color-pastel-blue: hsl(228, 100%, 84%);
+
+
 .step-card {
     background-image: url('../../../assets/images/bg-sidebar-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 47rem;
-    width: 25rem;
+    width: 23rem;
     border-radius: 1rem;
     margin-top: 1.5rem;
     margin-left: 1.5rem;
+    padding: 2rem;
     display: inline-block;
 
     &__group {
         display: flex;
+        position: relative;
+        padding: 1.5rem;
+    }
+
+    &__radio {
+        color: $color-white;
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+        border: 1px solid $color-pastel-blue;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    &__number {
+        position: absolute;
+        top: 23%;
+        left: 40%;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    &__text-group {
+        margin-left: 5rem;
+        margin-top: .05rem;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu';
+    }
+
+    &__label {
+        color: $color-pastel-blue;
+        margin-bottom: .5rem;
+    }
+
+    &__title {
+        font-weight: 700;
+        color: $color-white;
+        letter-spacing: .1rem;
     }
 }
